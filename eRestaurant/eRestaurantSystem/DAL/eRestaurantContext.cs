@@ -19,5 +19,6 @@ namespace eRestaurantSystem.DAL
 
         public DbSet<Item> Items { get; set; }
         public DbSet<MenuCategory> MenuCategories { get; set; }
+       
     }
 }
